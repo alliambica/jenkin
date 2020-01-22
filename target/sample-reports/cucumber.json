@@ -1,0 +1,89 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-22T02:18:35.805Z",
+        "line": 5,
+        "name": "to check login",
+        "description": "",
+        "id": "testing-the-fb-app;to-check-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11141422200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches and open app",
+            "match": {
+              "location": "StepDefinition.user_launches_and_open_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278249700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19000038000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to home page",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing the fb app",
+    "description": "",
+    "id": "testing-the-fb-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sample.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
